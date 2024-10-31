@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Novia Aryani</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: white;
+        }
+        body {
+            width: 100%;
+            height: 100%;
+            background-color: #85ba93;
+        }
+        .navbar {
+            display: flex;
+            height: 80px;
+            width: 100%;
+            background-color: #31793a53;
+            position: relative;
+            z-index: 2;
+        }
+        .navigasi {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .navigasi ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 80px;
+        }
+        .navigasi ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: 600;
+            font-size: 24px;
+        }
+        .navigasi ul li a:hover {
+            color: #124c27;
+        }
+        .content {
+            display: flex;
+            width: 100%;
+            height: 700px;
+        }
+        .left {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 0px 80px;
+            color: #fff;
+            z-index: 2;
+        }
+        .left p {
+            font-size: 20px;
+            font-weight: 300;
+            text-align: justify;
+            color: #fff;
+        }
+        .left button {
+            padding: 15px 25px;
+            background-color: #4e8d5b;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 20px;
+            font-weight: 600;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        .left button:hover {
+            background-color: #2b8057;
+        }
+        .right {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .right img {
+            object-fit: cover;
+            border-radius: 50%;
+        }
+        .about-title {
+            color: white;
+            margin-top: 80px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 40px;
+        }
+        .about-cards {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            width: 80%;
+            margin: 0 auto;
+            flex-wrap: wrap;
+        }
+        .card {
+            width: 100%;
+            max-width: 600px;
+            padding: 20px;
+            background-color: #2b8057;
+            border-radius: 10px;
+            text-align: justify;
+        }
+        .skill {
+            width: 100%;
+            margin-top: 80px;
+            text-align: center;
+        }
+        .project h1 {
+            font-size: 40px;
+            font-weight: 600;
+            margin-bottom: 40px;
+        }
+        .pembungkus-card {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="navigasi">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Skill</a></li>
+                <li><a href="#">Project</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <hr>
+
+    <div class="content">
+        <div class="left">
+            <p>Hi, ini Novia!!</p>
+            <h1 style="font-size: 40px;">Novia Rizky Aryani</h1>
+            <div style="display: flex; gap: 10px;"> 
+                <a href="https://www.linkedin.com/in/novia-rizky-aryani-8a5039318?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><button>LinkedIn</button></a>
+                <a href="https://github.com/NoviaRizkyAryani"><button>Github</button></a>
+                <a href="https://www.instagram.com/viiaryni?igsh=bjhwZXgydDl4OWk0"><button>Instagram</button></a>
+            </div>
+        </div>
+        
+        <div class="right">
+           <img src="img/novia.jpg" width="500px" height="500px">
+        </div>
+    </div>
+    <hr>
+
+    <div class="about">
+        <h1 class="about-title">About</h1>
+        <div class="about-cards">
+            <div class="card">
+                <p>Halo semuanya!!</p>
+                <p>Ini adalah website pertama saya.</p>
+                <p>Perkenalkan nama saya Novia Rizky Aryani.</p>
+                <p>Saya adalah mahasiswa semester 1 Universitas Jenderal Soedirman Fakultas Teknik Program Studi S-1 Informatika.</p>
+                <p>Sebagai mahasiswa Informatika, saya memiliki minat besar dalam dunia teknologi dan pemrograman.</p>
+                <p>Meskipun, saya baru memulai perjalanan akademik di Program Studi Informatika ini, saya sangat antusias untuk mempelajari dasar-dasar pemrograman.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <h1>Skill</h1>
+        <div class="pembungkus-card">
+            <div class="card">
+                <h3>HTML</h3>
+                <p>Sebagai mahasiswa semester 1 di Program Studi Informatika, saya telah mempelajari dasar-dasar HTML. HTML adalah bahasa dasar yang digunakan untuk membangun struktur halaman web. Dengan HTML, saya telah belajar membuat elemen-elemen penting pada halaman web, seperti judul, paragraf, gambar, dan tautan. Saya juga memahami bagaimana HTML menjadi fondasi dalam pengembangan web, bekerja sama dengan CSS dan JavaScript untuk menciptakan tampilan serta interaksi yang menarik. Ke depannya, saya berharap dapat mengembangkan keterampilan ini untuk membuat situs web yang lebih kompleks dan interaktif.</p>
+            </div>
+            <div class="card">
+                <h3>C++</h3>
+                <p>Sebagai mahasiswa semester 1 di Program Studi Informatika, saya telah mulai mempelajari dasar-dasar bahasa pemrograman C++. C++ adalah bahasa yang sering digunakan dalam pengembangan perangkat lunak. Dengan C++, saya telah belajar membuat program sederhana, seperti perhitungan matematis dan struktur kontrol dasar (seperti if-else dan looping), yang membantu memperkuat pemahaman logika pemrograman saya. Saya tertarik untuk terus mendalami C++ dan menjelajahi fitur-fitur yang lebih kompleks dalam pemrograman ini.</p>
+            </div>
+            <div class="card">
+                <h3>PYTHON</h3>
+                <p>Sebagai mahasiswa semester 1 di Program Studi Informatika, saya telah mulai mempelajari bahasa pemrograman Python. Python adalah bahasa pemrograman yang terkenal karena sintaksnya yang sederhana dan mudah dipahami, menjadikannya pilihan ideal untuk mempelajari konsep dasar pemrograman. Saya telah mempraktikkan berbagai konsep seperti variabel, tipe data, fungsi, dan kontrol alur program menggunakan Python. Saya sangat antusias untuk terus mengembangkan keterampilan Python saya ke depannya.</p>
+            </div>
+        </div>
+    </div>
+    <hr>
+</body>
+</html>
